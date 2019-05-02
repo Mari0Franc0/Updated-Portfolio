@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <!-- CSS link to superslides -->
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+
+    <!-- link to owl carousel css -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.js"
+      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!-- fancy box CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Superslides Markup -->
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="img/slide1.jpg" alt="" />
+        <img src="img/slide3.jpg" alt="" />
+        <img src="img/slide5.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="titleMessage">
+      <div class="heading">
+        <p class="main">MARIO A FRANCO</p>
+        <p class="sub typed"></p>
+      </div>
+    </div>
+
+    <nav class="slides-navigation">
+      <a href="#" class="next"></a>
+      <a href="#" class="prev"></a>
+    </nav>
+
+    <!-- Navbar -->
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#stats"
+              >Skills <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Disabled</a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="profileImage" src="img/profile.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4>My name is Mario Franco</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              atque veniam, expedita earum necessitatibus libero iure
+              consectetur reiciendis, qui cupiditate provident, dicta facilis!
+              Reprehenderit culpa aperiam libero velit repudiandae quisquam?
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              atque veniam, expedita earum necessitatibus libero iure
+              consectetur reiciendis, qui cupiditate provident, dicta facilis!
+              Reprehenderit culpa aperiam libero velit repudiandae quisquam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="skills" class="skillsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my profiencicy in each skill</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>HTML 5</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">85</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>CSS 3</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="50">
+                <span class="percent">50</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>jQuery</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="66">
+                <span class="percent">65</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>MySQL</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-book"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>UCLA</h2>
+                  <h3>Education</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-laptop"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>Projects</h2>
+                  <h3>Education</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fab fa-github-square"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>UCLA</h2>
+                  <h3>Github</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-book"></i>
+                </div>
+                <div class="squareContent">
+                  <h2>UCLA</h2>
+                  <h3>Education</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".apps">Apps</a></li>
+            </ul>
+          </div>
+          <div class="itemsContainer">
+            <ul class="items">
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/giphy_1.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/giphy-main.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a placeholder"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://mari0franc0.github.io/Giphy-API/"
+                      target="-blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/hangman1.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/hangman-main.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a placeholder"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="" target="-blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/guessgame1.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/fortune-main.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a placeholder"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://mari0franc0.github.io/Psychic-Game/"
+                      target="-blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/burger1.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/burger-main.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a placeholder"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://pure-beach-48244.herokuapp.com/index"
+                      target="-blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/hiking.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/hiking-main.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a placeholder"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://jflopezr11.github.io/TrailfinderProject/"
+                      target="-blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/train.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/train-main.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a placeholder"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://github.com/Mari0Franc0/Train-Scheduler"
+                      target="-blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Like what you see?</p>
+        <h2>I'd love to hear from you</h2>
+        <a href="mailTo:Mfranc0@outlook.com" class="contactButton"
+          >Contact Me!</a
+        >
+      </div>
+    </div>
+
+    <!-- Superslide link -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <!-- Easy Pie Chart JS link (jquery) -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!-- Owl Carousel link -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/typed.min.js"></script>
+
+    <!-- Popper.min.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap js -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+    <!-- fancy box js CDN -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
